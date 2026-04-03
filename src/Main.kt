@@ -4,8 +4,6 @@ fun main() {
 
     tasks.add("Complete the code completion task")
     tasks.add("Fix the code formatting issues")
-    tasks.add("Implement the task tracking feature")
-    tasks.addAll(0, listOf("Add unit tests", "Add code documentation"))
 
     println("Current Tasks:")
     if (tasks.isEmpty()) {
